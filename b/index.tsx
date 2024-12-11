@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { iconClass, type VariantProps } from '@bazeltesting/a';
 
-export type AnotherType = VariantProps<typeof iconClass>;
+export type AnotherType = VariantProps<typeof iconClass> & { foo: string };
 
-const Icon = React.forwardRef<SVGSVGElement, AnotherType>(
+export const Icon = React.forwardRef<SVGSVGElement, AnotherType>(
   ({...props}, ref) => {
     return (
       <svg></svg>

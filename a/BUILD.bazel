@@ -7,20 +7,14 @@ npm_link_all_packages(name = "node_modules")
 ts_project(
     name = "a_lib",
     srcs = [
-        "fractusPlugin.ts",
         "index.ts",
         "tv.ts",
-        "twMerge.ts",
     ],
     declaration = True,
     declaration_map = True,
     resolve_json_module = True,
     source_map = True,
-    deps = [
-        ":node_modules/tailwind-merge",
-        ":node_modules/tailwind-variants",
-        ":node_modules/tailwindcss",
-    ],
+    deps = [":node_modules/tailwind-variants"],
 )
 
 npm_package(
