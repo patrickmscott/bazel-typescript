@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react": "18.2.0",
+    "@types/react": "18.2.0",
+    "@bazeltesting/a": "workspace:^",
+    "tslib": "2.3.0"
+  }
+}

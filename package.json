@@ -1,0 +1,8 @@
+{
+  "pnpm": {
+    "onlyBuiltDependencies": []
+  },
+  "dependencies": {
+    "typescript": "5.6.3"
+  }
+}

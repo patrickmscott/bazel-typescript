@@ -1,0 +1,9 @@
+{
+  "name": "@bazeltesting/a",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "tailwind-variants": "0.2.1"
+  }
+}
